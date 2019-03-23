@@ -13,13 +13,17 @@
 </template>
 
 <page-query>
-  query Home ($page: Int) {
-    allBlogPost (page: $page) {
+query Home($page: Int) {
+  allBlogPost(perPage: 10, page: $page, sortBy: "date", order: DESC) @paginate {
+    pageInfo {
+      totalPages
+      currentPage
+    }
       edges {
         node {
           _id
           title
-          date (format: "D MMMM, YYYY")
+        date(format: "YYYY-MM-DD")
           description
           path
         }
