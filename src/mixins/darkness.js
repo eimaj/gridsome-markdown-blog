@@ -21,9 +21,21 @@ export default {
       Vue.localStorage.set('eimaj.dev--isDark', !this.getDarkness());
       return this.$emit('darkness-toggled');
     },
+
+    toggleHtmlClass() {
+      const node = document.querySelector('html');
+      return this.isDark ? node.classList.add('dark') : node.classList.remove('dark');
+    },
+  },
+
+  watch: {
+    isDark() {
+      return this.toggleHtmlClass();
+    },
   },
 
   mounted() {
-    return this.setDarkness();
+    this.setDarkness();
+    return this.toggleHtmlClass();
   },
 };

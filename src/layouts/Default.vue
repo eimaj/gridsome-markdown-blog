@@ -1,5 +1,5 @@
 <template>
-  <div class="Layout" :class="{ dark: isDark, light: !isDark }">
+  <div class="Layout">
     <div class="Layout__container">
       <Biline v-if="isIndex" />
 
@@ -49,8 +49,6 @@ export default {
 
 <style lang="scss" scoped>
 .Layout {
-  transition: all 300ms;
-  background-color: var(--white);
   min-height: 100%;
 }
 
