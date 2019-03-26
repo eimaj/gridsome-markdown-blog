@@ -1,0 +1,20 @@
+nav[aria-label='Pagination Navigation'] {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+nav .Pager__link {
+  font-size: 14px;
+  margin: 0 4px;
+  padding: 6px;
+  color: var(--medium);
+  border-top: 1px dashed var(--medium);
+  border-bottom: 0;
+
+  &:hover {
+    color: var(--dark);
+    border-color: var(--dark);
+  }
+}

@@ -1,39 +1,57 @@
 <template>
   <article class="ListItem">
-    <router-link class="ListItem__link" :to="post.path">
-      <header class="ListItem__title" v-html="post.title" />
+    <router-link
+      class="ListItem__link"
+      :alt="a11yTitle"
+      :title="a11yTitle"
+      :to="post.path"
+    >
+      <header class="ListItem__header">
+        <h2 class="ListItem__title" v-html="post.title" />
+      </header>
     </router-link>
 
-    <time
-      class="ListItem__published"
-      v-html="post.date"
-      :datetime="post.date"
-    />
+    <BlogPostMeta :date="post.date" :tags="post.tags" />
 
-    <section class="ListItem__section" v-html="post.description" />
+    <section class="ListItem__section">
+      <p v-html="post.description" />
+    </section>
   </article>
 </template>
 
 <script>
+import BlogPostMeta from "~/components/BlogPostMeta.vue";
+
 export default {
+  components: {
+    BlogPostMeta
+  },
+
   props: {
     post: {
       type: Object,
       required: true
     }
+  },
+  computed: {
+    a11yTitle() {
+      return `Article: ${this.post.title}`;
+    }
   }
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .ListItem {
+  padding: 20px 10px 0;
+  border-top: 1px dashed var(--medium);
+  margin-bottom: 10px;
 }
-.ListItem__link {
-}
+
 .ListItem__title {
-}
-.ListItem__published {
-}
-.ListItem__section {
+  font-size: 32px;
+  &:hover {
+    background-color: var(--light);
+  }
 }
 </style>

@@ -1,10 +1,20 @@
-import DefaultLayout from '~/layouts/Default.vue'
+import DefaultLayout from '~/layouts/Default.vue';
+import Highlight from 'vue-markdown-highlight';
+import VueLocalStorage from 'vue-localstorage';
 
-export default function (Vue, { head }) {
-  Vue.component('Layout', DefaultLayout)
+import 'highlight.js/styles/atom-one-dark.css';
+import './assets/styles/colors.scss';
 
-  head.link.push({
+export default function(Vue, config) {
+  Vue.component('Layout', DefaultLayout);
+
+  Vue.use(Highlight);
+  Vue.use(VueLocalStorage);
+
+  console.log('config', config);
+
+  config.head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Mali:700|Nunito'
-  })
+    href: 'https://fonts.googleapis.com/css?family=Roboto+Mono',
+  });
 }

@@ -22,6 +22,4 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.List {
-}
 </style>

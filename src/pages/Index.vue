@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <List :posts="$page.allBlogPost.edges" />
-    <Pager :info="$page.allBlogPost.pageInfo" />
+    <Pager :info="$page.allBlogPost.pageInfo" linkClass="Pager__link" />
   </Layout>
 </template>
 
@@ -28,9 +28,10 @@ query Home($page: Int) {
       node {
         _id
         title
-        date(format: "YYYY-MM-DD")
+        date (format: "MMMM D, YYYY")
         description
         path
+        tags
       }
     }
   }

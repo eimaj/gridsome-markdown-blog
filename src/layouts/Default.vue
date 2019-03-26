@@ -1,70 +1,66 @@
 <template>
-  <div class="Layout">
-    <Header />
+  <div class="Layout" :class="{ dark: isDark, light: !isDark }">
+    <div class="Layout__container">
+      <Biline v-if="isIndex" />
 
-    <main class="Layout__main">
-      <slot />
-    </main>
+      <DarknessToggle
+        :current-darkness="isDark"
+        @darkness-toggled="setDarkness"
+      />
 
-    <footer class="Layout__footer">
-      This is the footer
-    </footer>
+      <main class="Layout__main">
+        <slot />
+      </main>
+
+      <Biline v-if="!isIndex" />
+
+      <Icons />
+    </div>
   </div>
 </template>
 
 <script>
-import config from "~/.temp/config.js";
-import Header from "~/components/Header.vue";
+import darknessMixin from "~/mixins/darkness";
+
+import DarknessToggle from "~/components/DarknessToggle.vue";
+import Biline from "~/components/Biline.vue";
+import Icons from "~/components/Icons.vue";
 
 export default {
   components: {
-    Header
+    Biline,
+    DarknessToggle,
+    Icons
   },
 
+  mixins: [darknessMixin],
+
   computed: {
-    titleTag() {
-      return this.$route.name === "home" ? "h1" : "h6";
-    },
-    config() {
-      return config;
+    isIndex() {
+      return this.$route.name === "home";
     }
   }
 };
 </script>
 
-
-<style lang="css">
-* {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-}
-
-body {
-  font-size: 16px;
-}
-
-img {
-  max-width: 100%;
-  margin: 0 0 20px;
-}
+<style lang="scss">
+@import "../assets/styles/global.scss";
 </style>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .Layout {
+  transition: all 300ms;
+  background-color: var(--white);
+  min-height: 100%;
 }
-.Layout__main {
-}
-.Layout__footer {
+
+.Layout__container {
+  transition: all 300ms;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 640px;
+  min-width: 340px;
+  color: var(--dark);
 }
 </style>
