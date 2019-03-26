@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: `Gridsome Starter Blog`,
-  titleTemplate: `%s - Gridsome`,
+  siteName: `Notes for later`,
+  titleTemplate: `%s - eimaj.dev`,
 
   plugins: [
     {
@@ -8,8 +8,16 @@ module.exports = {
       options: {
         path: 'blog/*.md',
         typeName: 'BlogPost',
-        route: '/:slug'
-      }
-    }
-  ]
-}
+        route: '/:slug',
+      },
+    },
+  ],
+
+  chainWebpack: config => {
+    const svgRule = config.module.rule('svg');
+
+    svgRule.uses.clear();
+
+    svgRule.use('vue-svg-loader').loader('vue-svg-loader');
+  },
+};
