@@ -5,15 +5,13 @@ import VueLocalStorage from 'vue-localstorage';
 import 'highlight.js/styles/atom-one-dark.css';
 import './assets/styles/colors.scss';
 
-export default function(Vue, config) {
+export default function(Vue, { head }) {
   Vue.component('Layout', DefaultLayout);
 
   Vue.use(Highlight);
   Vue.use(VueLocalStorage);
 
-  console.log('config', config);
-
-  config.head.link.push({
+  head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Roboto+Mono',
   });

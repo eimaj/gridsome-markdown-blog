@@ -1,5 +1,5 @@
 {
-  "name": "gridsome-starter-markdown-blog",
+  "name": "eimaj.dev gridsome blog",
   "private": true,
   "scripts": {
     "build": "gridsome build",
