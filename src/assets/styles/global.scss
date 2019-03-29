@@ -89,6 +89,16 @@ time {
   font-style: italic;
 }
 
+p code {
+  display: inline-block;
+  margin: 0 2px;
+  border: 1px solid var(--medium);
+  border-radius: 6px;
+  padding: 0 4px;
+  background-color: var(--light);
+  color: var(--medium);
+}
+
 ::selection {
   transition: all 300ms;
   background-color: var(--light);
