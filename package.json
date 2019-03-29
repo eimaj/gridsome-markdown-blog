@@ -16,7 +16,6 @@
   "devDependencies": {
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "vue-markdown-highlight": "^1.0.5",
     "vue-svg-loader": "^0.12.0"
   }
 }
