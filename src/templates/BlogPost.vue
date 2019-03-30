@@ -14,6 +14,8 @@
         v-html="$page.blogPost.content"
         v-highlight
       />
+
+      <SubscribeForm />
     </article>
   </Layout>
 </template>
@@ -21,11 +23,13 @@
 <script>
 import Back from "~/components/Back.vue";
 import BlogPostMeta from "~/components/BlogPostMeta.vue";
+import SubscribeForm from "~/components/SubscribeForm.vue";
 
 export default {
   components: {
     Back,
-    BlogPostMeta
+    BlogPostMeta,
+    SubscribeForm
   },
 
   computed: {
@@ -60,6 +64,6 @@ export default {
 }
 
 .BlogPost__content {
-  padding-top: 20px;
+  padding: 20px 0;
 }
 </style>
