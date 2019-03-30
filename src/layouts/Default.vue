@@ -39,6 +39,22 @@ export default {
     isIndex() {
       return this.$route.name === "home";
     }
+  },
+
+  metaInfo: {
+    script: [
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=UA-137348311-1",
+        async: true
+      },
+      {
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-137348311-1');`
+      }
+    ]
   }
 };
 </script>
