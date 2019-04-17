@@ -1,6 +1,6 @@
 module.exports = {
-  siteName: `Notes for later`,
-  titleTemplate: `%s - eimaj.dev`,
+  siteName: `Blog of Jamie Allen`,
+  titleTemplate: `%s || eimaj.dev`,
 
   plugins: [
     {
