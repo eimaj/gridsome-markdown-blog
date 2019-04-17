@@ -68,7 +68,7 @@
 .SubscribeForm__form {
   border: 1px dashed var(--medium);
   padding: 20px;
-  žmargin: 0 20px 20px;
+  margin: 20px 0;
 }
 
 .SubscribeForm__callout {
