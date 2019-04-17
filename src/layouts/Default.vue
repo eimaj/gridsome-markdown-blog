@@ -15,6 +15,28 @@
       <Biline v-if="!isIndex" />
 
       <Icons />
+
+      <p>
+        <small>
+          Built using
+          <a
+            href="https://gridsome.org/"
+            target="_"
+            title="External link to Gridsome"
+            alt="External link to Gridsome"
+          >
+            Gridsome</a
+          >. Hosted on
+          <a
+            href="https://www.digitalocean.com/"
+            target="_"
+            title="External link to Digital Ocean"
+            alt="External link to Digital Ocean"
+          >
+            Digital Ocean</a
+          >.
+        </small>
+      </p>
     </div>
   </div>
 </template>
@@ -73,7 +95,7 @@ export default {
   box-sizing: border-box;
   padding: 30px;
   margin: 0 auto;
-  max-width: 640px;
+  max-width: 680px;
   min-width: 340px;
   color: var(--dark);
 }
