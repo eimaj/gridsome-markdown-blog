@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Back v-if="!isIndex" />
+    <Back />
 
     <article class="BlogPost">
       <header class="BlogPost__header">
@@ -30,12 +30,6 @@ export default {
     Back,
     BlogPostMeta,
     SubscribeForm
-  },
-
-  computed: {
-    isIndex() {
-      return this.$route.name === "home";
-    }
   },
 
   metaInfo() {
