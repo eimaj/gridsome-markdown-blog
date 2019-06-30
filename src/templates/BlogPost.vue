@@ -7,15 +7,13 @@
         <h1 class="BlogPost__title">{{ $page.blogPost.title }}</h1>
       </header>
 
-      <BlogPostMeta :date="$page.blogPost.date" :tags="$page.blogPost.tags" />
+      <BlogPostMeta :post="$page.blogPost" />
 
       <section
         class="BlogPost__content"
         v-html="$page.blogPost.content"
         v-highlight
       />
-
-      <SubscribeForm />
     </article>
   </Layout>
 </template>
@@ -47,6 +45,7 @@ export default {
       date (format: "MMMM D, YYYY")
       content
       tags
+      length
     }
   }
 </page-query>
@@ -55,6 +54,10 @@ export default {
 .BlogPost {
   border-bottom: 1px dashed var(--medium);
   padding: 30px 0;
+}
+
+.BlogPost__title {
+  margin-bottom: 10px;
 }
 
 .BlogPost__content {

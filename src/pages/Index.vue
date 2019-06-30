@@ -32,6 +32,7 @@ query Home($page: Int) {
         description
         path
         tags
+        length
       }
     }
   }

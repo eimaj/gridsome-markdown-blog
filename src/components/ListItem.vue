@@ -11,7 +11,7 @@
       </header>
     </router-link>
 
-    <BlogPostMeta :date="post.date" :tags="post.tags" />
+    <BlogPostMeta :post="post" />
 
     <section class="ListItem__section">
       <p v-html="post.description" />
@@ -49,7 +49,7 @@ export default {
 }
 
 .ListItem__title {
-  font-size: 32px;
+  font-size: 28px;
   &:hover {
     background-color: var(--light);
   }
