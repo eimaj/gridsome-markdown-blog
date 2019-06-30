@@ -3,5 +3,6 @@
 src/.temp
 node_modules
 dist
+blog-drafts
 
 .DS_Store
