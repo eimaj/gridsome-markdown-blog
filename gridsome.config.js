@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: `Blog of Jamie Allen`,
+  siteName: `Jamie Allen`,
   titleTemplate: `%s || eimaj.dev`,
 
   plugins: [
@@ -16,7 +16,7 @@ module.exports = {
       options: {
         contentTypeName: 'BlogPost',
         feedOptions: {
-          title: 'My Awesome Blog',
+          title: "Jamie Allen's RSS feed",
           feed_url: 'https://eimaj.dev/rss.xml',
           site_url: 'https://eimaj.dev',
         },
