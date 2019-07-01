@@ -12,31 +12,7 @@
         <slot />
       </main>
 
-      <Biline v-if="!isIndex" />
-
-      <Icons />
-
-      <p>
-        <small>
-          Built using
-          <a
-            href="https://gridsome.org/"
-            target="_"
-            title="External link to Gridsome"
-            alt="External link to Gridsome"
-          >
-            Gridsome</a
-          >. Hosted on
-          <a
-            href="https://www.digitalocean.com/"
-            target="_"
-            title="External link to Digital Ocean"
-            alt="External link to Digital Ocean"
-          >
-            Digital Ocean</a
-          >.
-        </small>
-      </p>
+      <Footer />
     </div>
   </div>
 </template>
@@ -47,12 +23,14 @@ import darknessMixin from "~/mixins/darkness";
 import DarknessToggle from "~/components/DarknessToggle.vue";
 import Biline from "~/components/Biline.vue";
 import Icons from "~/components/Icons.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
     Biline,
     DarknessToggle,
-    Icons
+    Icons,
+    Footer
   },
 
   mixins: [darknessMixin],
