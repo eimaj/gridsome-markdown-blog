@@ -1,10 +1,12 @@
 <template>
   <Layout>
-    <Back />
+    <Navigation />
 
     <article class="BlogPost">
       <header class="BlogPost__header">
-        <h1 class="BlogPost__title">{{ $page.blogPost.title }}</h1>
+        <h1 class="BlogPost__title">
+          {{ $page.blogPost.title }}
+        </h1>
       </header>
 
       <BlogPostMeta :post="$page.blogPost" />
@@ -19,13 +21,13 @@
 </template>
 
 <script>
-import Back from "~/components/Back.vue";
+import Navigation from "~/components/Navigation.vue";
 import BlogPostMeta from "~/components/BlogPostMeta.vue";
 import SubscribeForm from "~/components/SubscribeForm.vue";
 
 export default {
   components: {
-    Back,
+    Navigation,
     BlogPostMeta,
     SubscribeForm
   },
