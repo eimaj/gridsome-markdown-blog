@@ -23,7 +23,7 @@ dedee6f (HEAD -> feature/new-about-page) Adds About page component (that I don't
 15db5ca Updates favicon.png (that I want to update on master immediately)
 ```
 
-In this example I want to move the favicon.png commit to `master` now, but I want to leave the other changes until the are complete. The id of the commit is `15db5ca`.
+In this example I want to move the favicon.png commit to `master`, but I want to leave the other changes until the are complete. The id of the commit is `15db5ca`.
 
 ```
 $ git checkout master
@@ -32,13 +32,13 @@ $ git cherry-pick 15db5ca
 
 And that's it. This command simply copies the changes from the chosen commit to your current branch as a new commit. The old commit remains in the feature branch so there is no impact on your history.
 
-I sometimes like using the `-x` flag. It appends "(cherry picked from commit <id>)" to the newly created commit.
+I sometimes like using the `-x` flag. It appends "(cherry picked from commit 15db5ca)" commit message to the newly created commit.
 
 ```
 $ git cherry-pick -x 15db5ca
 ```
 
-If you want to write your own commit message you'll use the `-e` flag.
+If you want to write your own commit message you'll use the `-e` flag (e for edit).
 
 ```
 $ git cherry-pick -e 15db5ca
