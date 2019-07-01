@@ -22,4 +22,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.List {
+  border-bottom: 1px dashed var(--medium);
+}
 </style>
