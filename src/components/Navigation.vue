@@ -31,9 +31,13 @@
 </template>
 
 <style lang="scss" scoped>
+.Navigation {
+  margin-bottom: 10px;
+}
+
 .Navigation__item {
   transition: all 300ms;
-  margin: 0 20px 30px 0;
+  margin-right: 20px;
   padding: 6px 0;
   border-bottom: 1px dashed var(--medium);
   font-size: 0.9em;
