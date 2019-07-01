@@ -3,6 +3,9 @@
 src/.temp
 node_modules
 dist
+
+static/rss.xml
+
 blog-drafts
 blog-complete
 
