@@ -1,0 +1,31 @@
+<template functional>
+  <nav class="Navigation">
+    <g-link
+      class="Navigation__item"
+      :to="{ name: 'home' }"
+      alt="Return to home page"
+      title="Return to home page"
+    >
+      Home
+    </g-link>
+
+    <g-link
+      class="Navigation__item"
+      to="/about"
+      alt="Learn more about Jamie"
+      title="Learn more about Jamie"
+    >
+      About me
+    </g-link>
+  </nav>
+</template>
+
+<style lang="scss" scoped>
+.Navigation__item {
+  transition: all 300ms;
+  margin: 0 20px 30px 0;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--medium);
+  font-size: 0.9em;
+}
+</style>
