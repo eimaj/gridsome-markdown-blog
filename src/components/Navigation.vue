@@ -17,6 +17,16 @@
     >
       About me
     </g-link>
+
+    <a
+      class="Navigation__item"
+      href="/rss.xml"
+      alt="Link to RSS feed"
+      title="Link to RSS feed"
+      target="_"
+    >
+      RSS
+    </a>
   </nav>
 </template>
 
