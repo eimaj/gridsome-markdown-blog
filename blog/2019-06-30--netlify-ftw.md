@@ -1,7 +1,7 @@
 ---
 title: 'Netlify FTW 🎉'
 date: 2019-06-30 00:00:00
-description: 'And why Netlify is my favourite hosting tool out there at the moment'
+description: 'And why Netlify is my favourite hosting tool out there (at the moment).'
 slug: netlify-ftw
 tags: javascript, netlify
 length: 2 minute read
