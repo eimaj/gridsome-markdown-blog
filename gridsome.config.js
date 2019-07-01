@@ -11,6 +11,27 @@ module.exports = {
         route: '/:slug',
       },
     },
+    {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'BlogPost',
+        feedOptions: {
+          title: 'My Awesome Blog',
+          feed_url: 'https://eimaj.dev/rss.xml',
+          site_url: 'https://eimaj.dev',
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.description,
+          url: 'https://eimaj.dev/' + node.slug,
+          author: 'Jamie Allen',
+        }),
+        output: {
+          dir: './static',
+          name: 'rss.xml',
+        },
+      },
+    },
   ],
 
   chainWebpack: config => {
