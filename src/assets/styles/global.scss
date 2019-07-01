@@ -39,17 +39,44 @@ h2 {
 }
 
 h3 {
+  margin-bottom: 20px;
 }
 
 p,
+ol,
 ul {
   margin-bottom: 30px;
   line-height: 1.6;
 }
 
-li {
-  padding: 0 10px;
-  margin-left: 20px;
+ol,
+ul {
+  list-style: none;
+  border-left: 6px solid var(--light);
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+ul li {
+  counter-increment: ul-bullets;
+
+  &::before {
+    content: '•';
+    color: var(--medium);
+  }
+}
+
+ol {
+  counter-reset: ol-numbers;
+}
+
+ol li {
+  counter-increment: ol-numbers;
+
+  &::before {
+    content: counter(ol-numbers) '. ';
+    color: var(--medium);
+  }
 }
 
 pre {
