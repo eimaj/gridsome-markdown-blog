@@ -41,9 +41,15 @@ h2 {
 h3 {
 }
 
-p {
+p,
+ul {
   margin-bottom: 30px;
   line-height: 1.6;
+}
+
+li {
+  padding: 0 10px;
+  margin-left: 20px;
 }
 
 pre {
