@@ -50,9 +50,8 @@ export default {
 <style lang="scss" scoped>
 .Icons {
   display: flex;
-  padding: 30px 0;
-  border-top: 1px dashed var(--medium);
-  font-size: 16px;
+  padding: 20px 0;
+  font-size: 0.9em;
 }
 
 .Icons__link {
