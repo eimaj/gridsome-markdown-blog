@@ -20,8 +20,8 @@ To host a static site (standard HTML, CSS and JavaScript) on Netlify using their
 For my [Mastermind.js](https://mastermind.eimaj.dev/) and [Spell & Speak](https://spell-and-speak.eimaj.dev/) apps here's what I had to do:
 
 1. Log into Netlify,
-2. Select/connect to your git provider,
-3. Select the repo you would like to deploy,
+2. Select/connect my git provider,
+3. Select the repo I would like to deploy,
 4. Select what branch I would like to be deployed,
 5. Click the 'Deploy site' button.
 
@@ -32,7 +32,7 @@ If you are working with a framework of some kind you probably have a `build` scr
 1. Log into Netlify,
 2. Select/connect to your git provider,
 3. Select the repo you would like to deploy,
-4. Select what branch I would like to be deployed,
+4. Select what branch you would like to be deployed,
 5. Specify the build command (i.e. `npm run build`),
 6. Specify the build directory (i.e. `dist`),
 7. Click the 'Deploy site' button.
