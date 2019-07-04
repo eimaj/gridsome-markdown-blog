@@ -58,10 +58,12 @@ ul {
 }
 
 ul li {
+  display: flex;
   counter-increment: ul-bullets;
 
   &::before {
     content: '•';
+    padding-right: 20px;
     color: var(--medium);
   }
 }
@@ -71,10 +73,12 @@ ol {
 }
 
 ol li {
+  display: flex;
   counter-increment: ol-numbers;
 
   &::before {
     content: counter(ol-numbers) '. ';
+    padding-right: 10px;
     color: var(--medium);
   }
 }
