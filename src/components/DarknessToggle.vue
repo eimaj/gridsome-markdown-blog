@@ -21,10 +21,13 @@ export default {
 <style lang="scss" scoped>
 .DarknessToggle {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 30px;
+  right: 30px;
   border: 0;
+  width: 30px;
   background-color: transparent;
+  line-height: 30px;
+  text-align: center;
   font-size: 1.4em;
   cursor: pointer;
 }

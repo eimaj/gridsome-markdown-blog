@@ -70,11 +70,12 @@ export default {
 
 .Layout__container {
   transition: all 300ms;
-  box-sizing: border-box;
-  padding: 30px;
+  position: relative;
   margin: 0 auto;
+  padding: 30px;
   max-width: 680px;
   min-width: 340px;
+  box-sizing: border-box;
   color: var(--dark);
 }
 </style>
