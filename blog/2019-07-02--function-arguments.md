@@ -4,7 +4,7 @@ date: 2019-07-02 00:00:00
 description: "I've been exploring two different ways of passing arguments to a function. Here's what I've found."
 slug: function-arguments
 tags: javascript
-length: 2 minute read
+length: 8 minute read
 ---
 
 I've been exploring two different ways of passing arguments to a function and I've come to a conclusion.
