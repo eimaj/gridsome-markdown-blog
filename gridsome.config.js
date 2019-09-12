@@ -22,9 +22,9 @@ module.exports = {
         },
         feedItemOptions: node => ({
           title: node.title,
-          description: node.description,
+          description: node.content,
           url: 'https://eimaj.dev/' + node.slug,
-          author: 'Jamie Allen',
+          author: 'Jamie Allen (@eimaj)',
         }),
         output: {
           dir: './static',
