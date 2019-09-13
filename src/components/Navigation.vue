@@ -41,5 +41,6 @@
   padding: 6px 0;
   border-bottom: 1px dashed var(--medium);
   font-size: 0.9em;
+  color: var(--dark);
 }
 </style>
