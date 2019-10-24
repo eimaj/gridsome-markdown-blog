@@ -1,5 +1,5 @@
 ---
-title: 'Git tip #3: `git cherry-pick`'
+title: '`git cherry-pick`'
 date: 2019-04-23 00:00:00
 description: ''
 slug: git-cherry-pick
