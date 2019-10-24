@@ -41,4 +41,4 @@ Your newly deployed site will be given a random name like `dazzling-colden-12345
 
 Long story short, I'm on the band wagon. If I don't have to manage any of servers, I can spend more time building fun things.
 
-🥳
+# 🥳
