@@ -1,7 +1,7 @@
 ---
 title: '`git cherry-pick`'
 date: 2019-04-23 00:00:00
-description: ''
+description: "Here's how to move some commits from one branch to another."
 slug: git-cherry-pick
 tags: git
 length: 4 minute read

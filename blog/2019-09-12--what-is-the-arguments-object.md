@@ -1,10 +1,10 @@
 ---
 title: 'What is the `Arguments` object?'
 date: 2019-09-12 00:00:00
-description: ""
+description: "That hidden object in a non-arrow function that contains everything that was passed in..."
 slug: what-is-the-arguments-object
 tags: javascript
-length: 2 minute read
+length: 5 minute read
 ---
 
 At my day job we have been slowly linting a legacy project. One of the rules that ESLint enforces is [prefer-rest-params].

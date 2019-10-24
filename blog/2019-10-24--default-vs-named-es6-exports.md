@@ -1,10 +1,10 @@
 ---
 title: 'default vs. named ES6 exports'
 date: 2019-10-24 00:00:00
-description: ""
+description: "What started as a desire to tree shake my code with Webpack, ended up with some insight into a couple different ways to use `import`/`export`"
 slug: default-vs-named-es6-exports
 tags: javascript
-length: 2 minute read
+length: 4 minute read
 ---
 
 How do you use `export` in your files?
