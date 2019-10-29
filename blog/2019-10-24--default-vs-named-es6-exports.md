@@ -11,7 +11,7 @@ How do you use `export` in your files?
 
 Our goal here is to only import what we are going to use using a destructured `import`.
 
-The reason is that with [Webpack's tree shaking](https://webpack.js.org/guides/tree-shaking/), any unused `exports` will never be compiled.
+The reason is to make use of [Webpack's tree shaking](https://webpack.js.org/guides/tree-shaking/). Any unused `exports` will never be compiled.
 
 ## Export everything as an named object
 
