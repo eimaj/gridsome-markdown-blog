@@ -5,10 +5,15 @@
         <h1>My name is Jamie Allen</h1>
       </header>
 
-      <article class="About__content">
         <p>
-          I am a Senior Software Developer working my craft in Hamilton
-          (Canada).
+      <article class="About__content">
+          I am a
+          <g-link
+            to="/resume"
+            alt="Learn more about Jamie"
+            title="Learn more about Jamie"
+          >Senior Software Developer</g-link>
+          working my craft in Hamilton, Ontario (Canada).
         </p>
         <p>
           Here are a couple fun things I have built:

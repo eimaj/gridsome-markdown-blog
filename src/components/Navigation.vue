@@ -5,18 +5,21 @@
       :to="{ name: 'home' }"
       alt="Return to home page"
       title="Return to home page"
-    >
-      Home
-    </g-link>
+    >Home</g-link>
 
     <g-link
       class="Navigation__item"
       to="/about"
       alt="Learn more about Jamie"
       title="Learn more about Jamie"
-    >
-      About me
-    </g-link>
+    >About me</g-link>
+
+    <g-link
+      class="Navigation__item"
+      to="/resume"
+      alt="See Jamie's experience"
+      title="See Jamie's experience"
+    >R&eacute;sum&eacute;</g-link>
 
     <a
       class="Navigation__item"
@@ -24,9 +27,7 @@
       alt="Link to RSS feed"
       title="Link to RSS feed"
       target="_"
-    >
-      RSS
-    </a>
+    >RSS</a>
   </nav>
 </template>
 
