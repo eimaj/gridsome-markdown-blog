@@ -9,22 +9,20 @@
       <hr />
 
       <article class="Resume__content">
-        <h2>Qualifications</h2>
+        <h2 class="Resume__h2">Qualifications</h2>
 
-        <ul>
+        <ul class="Resume__ul">
           <li>JavaScript (ES6+)</li>
           <li>Vue, React, Node, Webpack,</li>
           <li>Ruby and Rails,</li>
           <li>Jest, Minitest, Cypress, Nightwatch,</li>
           <li>HTML5, CSS3 (Sass/SCSS),</li>
           <li>SQL (Postgres, MySQL, sqlite), GraphQL,</li>
-          <li>Netlify, Digital Ocean, AWS, Firebase, FaunaDB, Heroku.</li>
-          <li>Git!</li>
+          <li>Netlify, Digital Ocean, AWS, Firebase, FaunaDB, Heroku,</li>
+          <li>Git(hub|lab) + CI/CD</li>
         </ul>
 
-        <hr />
-
-        <h2>Experience</h2>
+        <h2 class="Resume__h2">Experience</h2>
 
         <h3>
           <strong>Weever Apps</strong>
@@ -79,9 +77,7 @@
           In house web project development, programming and design.
         </p>
 
-        <hr />
-
-        <h2>Interests</h2>
+        <h2 class="Resume__h2">Interests</h2>
 
         <p>
           Coordinator of
@@ -97,7 +93,7 @@
         </p>
 
         <p>
-          I was an organizer for the HamOnt Conference series in Hamilton and
+         I was an organizer for the HamOnt Conference series in Hamilton and
           topic leader for HamOnt UX. I've mentored for Ladies Learning Code in
           Hamilton and I have volunteered for local political issues like public
           transit and various elections.
@@ -109,9 +105,7 @@
           the time.
         </p>
 
-        <hr />
-
-        <h2>Education</h2>
+        <h2 class="Resume__h2">Education</h2>
 
         <h3>
           Design Management Diploma
@@ -137,5 +131,16 @@
 
 .Resume__content {
   padding-top: 20px;
+}
+
+.Resume__h2 {
+    border-left: 6px solid var(--light);
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.Resume__ul {
+  border-left: 0;
+  padding: 20px 0;
 }
 </style>
