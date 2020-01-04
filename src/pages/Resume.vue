@@ -24,9 +24,8 @@
 
         <h2 class="Resume__h2">Experience</h2>
 
-        <h3>
+        <h3 class="Resume__h3">
           <strong>Weever Apps</strong>
-          <br />
           Senior Developer
           <br />
           <small>October 2018 - Present</small>
@@ -37,9 +36,8 @@
           migration solution for taking a legacy AngularJS app to Vue.
         </p>
 
-        <h3>
+        <h3 class="Resume__h3">
           <strong>Fluid Media Technologies</strong>
-          <br />
           Senior Software Developer
           <br />
           <small>September 2017 - October 2018</small>
@@ -52,9 +50,8 @@
           Vue, improved the API and launched several new products.
         </p>
 
-        <h3>
+        <h3 class="Resume__h3">
           <strong>Parallel Digital Studio/ factor[e] design initiative</strong>
-          <br />
           Senior UX Developer
           <br />
           <small>May 2009 - August 2017</small>
@@ -65,9 +62,8 @@
           the goals of the client.
         </p>
 
-        <h3>
+        <h3 class="Resume__h3">
           <strong>Social Media Group</strong>
-          <br />
           Social Media Analyst
           <br />
           <small>May 2008 - May 2009</small>
@@ -107,13 +103,13 @@
 
         <h2 class="Resume__h2">Education</h2>
 
-        <h3>
+        <h3 class="Resume__h3">
           Design Management Diploma
           <br />
           <small>George Brown College, 2008</small>
         </h3>
 
-        <h3>
+        <h3 class="Resume__h3">
           Bachelor of Arts with Honours - Fine Art
           <br />
           <small>University of Guelph, 2005</small>
@@ -134,13 +130,20 @@
 }
 
 .Resume__h2 {
-    border-left: 6px solid var(--light);
+  margin-bottom: 20px; 
+  border-left: 6px solid var(--light);
   padding-left: 20px;
   box-sizing: border-box;
 }
 
+.Resume__h3 strong {
+  display: block;
+  margin-bottom: 10px; 
+}
+
 .Resume__ul {
+  margin-bottom: 40px;
   border-left: 0;
-  padding: 20px 0;
+  padding: 0;
 }
 </style>
