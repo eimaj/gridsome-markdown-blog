@@ -3,7 +3,7 @@
     <section class="Resume">
       <header class="Resume__title">
         <h1>Jamie Allen</h1>
-        <h2>Senior Software Developer</h2>
+        <h2>Senior Full-Stack Developer</h2>
       </header>
 
       <hr />
@@ -12,10 +12,10 @@
         <h2 class="Resume__h2">Qualifications</h2>
 
         <ul class="Resume__ul">
-          <li>JavaScript (ES6+)</li>
+          <li>JavaScript (ES6+), Typescript, Flow</li>
           <li>Vue, React, Node, Webpack,</li>
           <li>Ruby and Rails,</li>
-          <li>Jest, Minitest, Cypress, Nightwatch,</li>
+          <li>Jest, Cypress, Minitest, Nightwatch,</li>
           <li>HTML5, CSS3 (Sass/SCSS),</li>
           <li>SQL (Postgres, MySQL, sqlite), GraphQL,</li>
           <li>Netlify, Digital Ocean, AWS, Firebase, FaunaDB, Heroku,</li>
@@ -130,7 +130,7 @@
 }
 
 .Resume__h2 {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   border-left: 6px solid var(--light);
   padding-left: 20px;
   box-sizing: border-box;
@@ -138,7 +138,7 @@
 
 .Resume__h3 strong {
   display: block;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .Resume__ul {
