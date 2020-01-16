@@ -18,7 +18,7 @@
           <li>Jest, Cypress, Minitest, Nightwatch,</li>
           <li>HTML5, CSS3 (Sass/SCSS),</li>
           <li>SQL (Postgres, MySQL, sqlite), GraphQL,</li>
-          <li>Netlify, Digital Ocean, AWS, Firebase, FaunaDB, Heroku,</li>
+          <li>Netlify, Digital Ocean, Docker, AWS, Firebase, FaunaDB, Heroku,</li>
           <li>Git(hub|lab) + CI/CD</li>
         </ul>
 
