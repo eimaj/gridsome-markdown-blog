@@ -32,8 +32,8 @@
         </h3>
 
         <p>
-          Working with the development teams and management to develop a
-          migration solution for taking a legacy AngularJS app to Vue.
+          Working with the development teams and management to develop a migration solution for taking a legacy
+          AngularJS app to Vue.
         </p>
 
         <h3 class="Resume__h3">
@@ -44,10 +44,9 @@
         </h3>
 
         <p>
-          Team lead and senior developer on all aspects of the Fluid Media
-          System. As a lead my focus was on collaboration and process. While
-          working in loose sprints, we initiated a migration from Backbone to
-          Vue, improved the API and launched several new products.
+          Team lead and senior developer on all aspects of the Fluid Media System. As a lead my focus was on
+          collaboration and process. While working in loose sprints, we initiated a migration from Backbone to Vue,
+          improved the API and launched several new products.
         </p>
 
         <h3 class="Resume__h3">
@@ -57,9 +56,8 @@
           <small>May 2009 - August 2017</small>
         </h3>
         <p>
-          Worked closely with clients, designers and developers to build the
-          best possible solution. Every project was custom and designed to meet
-          the goals of the client.
+          Worked closely with clients, designers and developers to build the best possible solution. Every project was
+          custom and designed to meet the goals of the client.
         </p>
 
         <h3 class="Resume__h3">
@@ -82,23 +80,28 @@
             target="_"
             alt="HamOntJS Meetup Group"
             title="HamOntJS Meetup Group"
+            target="_"
             >HamOntJS</a
-          >, a JavaScript focussed Meetup group with a goal of bringing together
-          the local JavaScript community for networking and mentoring
-          opportunities.
+          >, a JavaScript focussed Meetup group with a goal of bringing together the local JavaScript community for
+          networking and mentoring opportunities.
         </p>
 
         <p>
-         I was an organizer for the HamOnt Conference series in Hamilton and
-          topic leader for HamOnt UX. I've mentored for Ladies Learning Code in
-          Hamilton and I have volunteered for local political issues like public
-          transit and various elections.
+          I was an organizer for the HamOnt Conference series in Hamilton and topic leader for HamOnt UX. I've mentored
+          for
+          <a
+            href="https://www.canadalearningcode.ca/"
+            alt="Link to Canada Learning Code"
+            title="Link to Canada Learning Code"
+            target="_"
+            >Canada Learning Code</a
+          >
+          in Hamilton and I have volunteered for local political issues like public transit and various elections.
         </p>
 
         <p>
-          Currently most of my spare time is been spent with my family. I also
-          enjoy painting, playing music, gardening and sailing when I can find
-          the time.
+          Currently most of my spare time is been spent with my family. I also enjoy painting, playing music, gardening
+          and sailing when I can find the time.
         </p>
 
         <h2 class="Resume__h2">Education</h2>
