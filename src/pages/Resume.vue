@@ -32,7 +32,7 @@
         </h3>
 
         <p>
-          Working with the web development team to maintain and improve and maintain all of the web properties.
+          Working with the web development team to improve and maintain all of the web properties.
         </p>
 
         <h3 class="Resume__h3">
@@ -88,7 +88,6 @@
           Coordinator of
           <a
             href="https://www.meetup.com/HamOnt-JavaScript"
-            target="_"
             alt="HamOntJS Meetup Group"
             title="HamOntJS Meetup Group"
             target="_"

@@ -3,7 +3,7 @@
     <Avatar />
 
     <component :is="isIndex ? 'h1' : 'h3'" class="Biline__text">
-      Personal blog of Jamie Allen.
+      Personal site of Jamie Allen.
       <br />
       May contain code, ideas and thoughts.
     </component>
