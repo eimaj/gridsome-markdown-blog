@@ -25,10 +25,21 @@
         <h2 class="Resume__h2">Experience</h2>
 
         <h3 class="Resume__h3">
+          <strong>TextNow</strong>
+          Senior Software Developer
+          <br />
+          <small>February 2020 - Present</small>
+        </h3>
+
+        <p>
+          Working with the web development team to maintain and improve and maintain all of the web properties.
+        </p>
+
+        <h3 class="Resume__h3">
           <strong>Weever Apps</strong>
           Senior Developer
           <br />
-          <small>October 2018 - Present</small>
+          <small>October 2018 - February 2020</small>
         </h3>
 
         <p>
@@ -130,7 +141,7 @@
 }
 
 .Resume__h2 {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   border-left: 6px solid var(--light);
   padding-left: 20px;
   box-sizing: border-box;
@@ -138,7 +149,7 @@
 
 .Resume__h3 strong {
   display: block;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .Resume__ul {
