@@ -24,7 +24,7 @@
   </nav>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .Navigation {
   margin-bottom: 10px;
 }
