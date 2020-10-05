@@ -9,13 +9,6 @@
 
     <g-link
       class="Navigation__item"
-      to="/about"
-      alt="Learn more about Jamie"
-      title="Learn more about Jamie"
-    >About me</g-link>
-
-    <g-link
-      class="Navigation__item"
       to="/resume"
       alt="See Jamie's experience"
       title="See Jamie's experience"
